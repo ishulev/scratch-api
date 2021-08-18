@@ -1,3 +1,17 @@
+## Instructions
+```
+    yarn install
+    yarn compile
+    yarn serve
+```
+Go to `localhost:8000`
+
+## Still missing
+- Logic for separation by state/time
+- Tests
+- Filtering properly, when combining `to` and `from`
+- Docker integration
+
 ## Assumptions
 This application would be heavy read and not updated that frequently. It is fair to say that once added, there won't be many changes to individual clinics. What is more, they take quite the resources to be built, so they won't be popping here and there. This train of thought could lead us to an in-memory cache, refreshed from time to time (how often?).
 
